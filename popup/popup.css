@@ -1,0 +1,50 @@
+body{
+    width: 320px;
+    height: 180px;
+    background-color: rgb(0, 139, 219);
+    color: black;
+    border: 2px white dashed;
+    margin: 0;
+}
+.intro{
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    margin: 20px;
+    margin-top: 10px;
+    align-items: center;
+}
+.intro h1, .intro p{
+    margin: 0;
+}
+.intro h1{
+    color: yellow;
+    font-size: 25px;
+}
+#output {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    background-color: rgba(58, 54, 54, 0.521);
+    margin: 0px 50px;
+    border-radius: 10px;
+    padding: 15px 10px;
+}
+.logo {
+    height: 30px;
+    object-fit: contain;
+}
+
+.transfer-system{
+    text-align: center;
+}
+.transfer-system button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: rgb(20, 20, 58);
+    border: 1px white solid;
+    margin: 10px auto;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
